@@ -1,0 +1,7 @@
+applications:
+- name: demo
+  routes:
+  - route: demo.mesh.apps.pcfbeta.io
+  buildpacks:
+  - php_buildpack
+  memory: 32m
